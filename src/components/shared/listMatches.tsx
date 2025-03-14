@@ -9,7 +9,6 @@ export const ListMatches = () => {
 	useEffect(() => {
 		getMatch()
 	}, [getMatch])
-	console.log(matches)
 	return (
 		<div>
 			<div className='h-14 mb-5 flex justify-between items-end gap-3 text-lg '>
